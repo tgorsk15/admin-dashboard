@@ -34,7 +34,17 @@
     </div>
 
     <div class="header">
-        Test
+        
+        <div class="header-row1">
+            <form action="">
+                <label for="search-bar">Browse <span class="mdi mdi-magnify"></span></label>
+                <input type="text" id="search-bar" name="search-bar">
+            </form>
+        </div>
+
+        <div class="header-row2">
+            dummy
+        </div>
     </div>
 
     <div class="dashboard">
@@ -46,6 +56,14 @@
 <!-- structure of page:
 3 sections: sidebar, search/header bar, and the dashboard
 - all of these will be layed out with Grid 
+
+header:
+  - overall structure will be to put boh rows on a grid, and have each row use flexbox
+
+row1: consist of search icon and search bar, some space, a messages inbox button/icon,
+a profile pic, and the user's name
+
+row2: consist of profile pic, greting message to user, and 3 buttons at the end 
 -->
 </body>
 </html>
