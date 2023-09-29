@@ -9,7 +9,7 @@ ul {
 .structure {
     display: grid;
     height: 800px;
-    grid-template: 1fr 4fr / 1fr 4fr;
+    grid-template: 1fr 3.5fr / 1fr 5fr;
     background-color: silver;
 
 }
@@ -30,7 +30,7 @@ ul {
     color: white;
     align-self: center;
     justify-self: center;
-    margin-left: -55px;
+    /* margin-left: -55px; */
 }
 
 .sidebar-menu {
@@ -40,6 +40,14 @@ ul {
     color: white;
     display: grid;
     gap: 10px;
+}
+
+.mdi {
+    margin-right: 20px;
+}
+
+.mdi-bike-fast{
+    margin: 0px;
 }
 
 .part1, .part2 {
