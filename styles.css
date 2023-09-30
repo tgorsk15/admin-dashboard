@@ -61,6 +61,37 @@ ul {
     grid-column: 2;
     grid-row: 1;
     background-color: white;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    /* justify-content: stretch; */
+    align-items: center;
+    padding-left: 25px;
+}
+
+.header-row1 {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    /* padding: 10px 0px; */
+}
+
+/* .search-form {
+    display: flex;
+} */
+
+#search-bar {
+    flex: 1;
+    margin-right: 100px;
+    
+}
+
+/* label, 
+.mdi-message {
+    
+} */
+
+.header-row2 {
+
 }
 
 .dashboard {
