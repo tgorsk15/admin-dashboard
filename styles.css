@@ -66,29 +66,37 @@ ul {
     /* justify-content: stretch; */
     align-items: center;
     padding-left: 25px;
+    padding-right: 20px;
 }
 
 .header-row1 {
     display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    /* padding: 10px 0px; */
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
 }
 
-/* .search-form {
-    display: flex;
-} */
+.search-label {
+    font-size: 20px;
+    font-weight: bold;
+}
 
 #search-bar {
-    flex: 1;
     margin-right: 100px;
-    
+    height: 25px;
+    flex: 1;
+    border-radius: 25px;
 }
 
-/* label, 
-.mdi-message {
-    
-} */
+.profile-pic {
+    height: 55px;
+    padding-right: 25px;
+}
+
+.user-name {
+    font-size: 20px;
+    font-weight: bold;
+}
 
 .header-row2 {
 
