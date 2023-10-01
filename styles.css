@@ -10,7 +10,7 @@ ul {
     display: grid;
     height: 815px;
     grid-template: 1fr 3.5fr / 1fr 5fr;
-    background-color: silver;
+    background-color: rgb(228, 225, 225);
 
 }
 
@@ -67,8 +67,10 @@ ul {
     align-items: center;
     padding-left: 25px;
     padding-right: 20px;
+    border-bottom: 3px solid #2dd4bf;
+    box-shadow: 0px 5px 3px 0px rgb(164, 164, 164);
 }
-
+ 
 .header-row1 {
     display: flex;
     justify-content: space-around;
@@ -83,15 +85,25 @@ ul {
 
 #search-bar {
     margin-right: 100px;
-    margin-left: -20px;
-    height: 25px;
+    margin-left: -100px;
+    /* height: 25px; */
+    padding: 13px;
     width: 850px;
     border-radius: 25px;
+    border-color: #2dd4bf;
+    background-color: rgb(228, 225, 225);
+    font-size: large;
+}
+
+#search-bar:focus {
+    border-color: #2dd4bf;
+     /* need to fix  */
 }
 
 .profile-pic {
     height: 55px;
     margin-left: -80px;
+    margin-top: -10px;
 }
 
 .profile-pic2 {
@@ -117,7 +129,7 @@ ul {
 
 .row2-section1 {
     display: grid;
-    grid-template: 30px 70px / 1fr 6fr;
+    grid-template: 30px 70px / 1fr 7fr;
 }
 
 .row2-section2 {
@@ -141,10 +153,12 @@ button {
     border: none;
     color: white;
     font-weight: bold;
+    box-shadow: 1px 3px 3px 0px rgb(194, 193, 193);
 }
 
 .dashboard {
     grid-column: 2;
     grid-row: 2;
+    /* background-color: rgb(228, 225, 225); */
 }
 
