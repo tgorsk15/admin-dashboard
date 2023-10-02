@@ -85,7 +85,7 @@ ul {
 
 #search-bar {
     margin-right: 100px;
-    margin-left: -100px;
+    /* margin-left: -100px; */
     /* height: 25px; */
     padding: 13px;
     width: 850px;
@@ -102,19 +102,29 @@ ul {
 
 .profile-pic {
     height: 55px;
-    margin-left: -80px;
+    padding-right: 10px;
     margin-top: -10px;
-}
-
-.profile-pic2 {
-    height: 70px;
-    grid-row: 1/3;
 }
 
 .user-name {
     font-size: 20px;
     font-weight: bold;
-    margin-left: -80px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.profile-section {
+    display: grid;
+    width: 200px;
+    grid-template-columns: 1fr 1fr ;
+    justify-items: end;
+    align-items: center;
+}
+
+.profile-pic2 {
+    height: 70px;
+    grid-row: 1/3;
 }
 
 .user-name2 {
@@ -129,7 +139,7 @@ ul {
 
 .row2-section1 {
     display: grid;
-    grid-template: 30px 70px / 1fr 7fr;
+    grid-template: 30px 70px / 1fr 10fr;
 }
 
 .row2-section2 {
@@ -154,11 +164,35 @@ button {
     color: white;
     font-weight: bold;
     box-shadow: 1px 3px 3px 0px rgb(194, 193, 193);
+    /* // want to create a hover animation here */
 }
 
 .dashboard {
     grid-column: 2;
     grid-row: 2;
     /* background-color: rgb(228, 225, 225); */
+    display: grid;
+    grid-template-columns: 1000px 1fr;
 }
+
+.article-container {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    background-color: white;
+}
+
+.article1 {
+    grid-column: 1;
+    background-color: white;
+}
+
+/* article {
+    background-color: white;
+    width: 200px;
+} */
+
+
 
