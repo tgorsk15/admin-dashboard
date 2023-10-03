@@ -67,8 +67,8 @@ ul {
     align-items: center;
     padding-left: 25px;
     padding-right: 20px;
-    border-bottom: 3px solid #2dd4bf;
-    box-shadow: 0px 5px 3px 0px rgb(164, 164, 164);
+    border-bottom: 4px solid #7dd3fc;
+    box-shadow: 0px 5px 8px 1px rgb(164, 164, 164);
 }
  
 .header-row1 {
@@ -90,13 +90,13 @@ ul {
     padding: 13px;
     width: 850px;
     border-radius: 25px;
-    border-color: #2dd4bf;
+    border: 2px solid rgb(76, 144, 144);
     background-color: rgb(228, 225, 225);
     font-size: large;
 }
 
 #search-bar:focus {
-    border-color: #2dd4bf;
+    
      /* need to fix  */
 }
 
@@ -159,7 +159,7 @@ button {
     height: 40px;
     width: 105px;
     border-radius: 25px;
-    background-color: #2dd4bf;
+    background-color: rgb(76, 144, 144);
     border: none;
     color: white;
     font-weight: bold;
@@ -172,16 +172,20 @@ button {
     grid-row: 2;
     /* background-color: rgb(228, 225, 225); */
     display: grid;
-    grid-template-columns: 1000px 1fr;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr;
 }
 
 .article-container {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     display: grid;
+    height: 495px;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 25px;
-    background-color: white;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    padding: 35px;
+    padding-top: 65px;
 }
 
 .article1 {
@@ -189,10 +193,24 @@ button {
     background-color: white;
 }
 
-/* article {
+article {
     background-color: white;
-    width: 200px;
-} */
+    border-left: 8px inset #b9f4ec;
+    border-radius: 25px;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+.content-container {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.florence {
+    object-fit: cover;
+    width: 320px; 
+    overflow: hidden;
+}
 
 
 
