@@ -199,6 +199,7 @@ article {
     border-radius: 25px;
     padding: 15px;
     padding-top: 0px;
+    height: 232.5px;
 }
 
 .content-container {
@@ -206,10 +207,14 @@ article {
     grid-row: 1;
 }
 
-.florence {
+.trip-pic {
     object-fit: cover;
-    width: 320px; 
+    width: 335px; 
     overflow: hidden;
+}
+
+h3 {
+    margin-bottom: 8px;
 }
 
 
