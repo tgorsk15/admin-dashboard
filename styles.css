@@ -228,6 +228,7 @@ h3 {
 }
 
 .content-container {
+    position: relative;
     grid-column: 2;
     grid-row: 1;
     display: grid;
@@ -235,6 +236,12 @@ h3 {
     height: 460px;
     padding-top: 65px;
     padding-right: 21px;
+}
+
+.announce-header {
+    position: absolute;
+    top: 10px;
+    left: 3px;
 }
 
 h4 {
@@ -254,7 +261,7 @@ h4 + p {
     padding: 0px 15px;
     height: 525px;
     display: grid;
-    gap: 30px;
+    gap: 0px;
     grid-template-rows: 1.5fr 1fr;
 }
 
@@ -265,15 +272,26 @@ h4 + p {
 }
 
 .trending {
-    border: 1px solid black;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 5px;
+    padding-left: 20px;
     /* haveto figure out how to insert icons here */
     /* make flex-direction = column */
+}
+
+.trending-header {
+    margin-bottom: 0px;
+    position: absolute;
+    top: -38px;
 }
 
 .user1, .user2,
 .user3 {
     height: 40px;
-    padding-right: 30px;
+    padding-right: 40px;
 }
 
 .user-box {
