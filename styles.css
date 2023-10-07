@@ -9,7 +9,7 @@ ul {
 
 .structure {
     display: grid;
-    height: 815px;
+    /* height: 815px; */
     grid-template: 1fr 3.5fr / 1fr 5fr;
     background-color: rgb(228, 225, 225);
 
@@ -66,9 +66,9 @@ li:hover {
     grid-column: 2;
     grid-row: 1;
     background-color: white;
+    height: 230px;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    /* justify-content: stretch; */
     align-items: center;
     padding-left: 25px;
     padding-right: 20px;
