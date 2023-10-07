@@ -98,9 +98,8 @@ li:hover {
     font-size: large;
 }
 
-#search-bar:focus {
-    
-     /* need to fix  */
+.mdi-message-outline:hover {
+    background-color: #b9f4ec;
 }
 
 .profile-pic {
@@ -201,16 +200,22 @@ button:hover {
 }
 
 article {
+    position: relative;
     background-color: white;
     border-left: 8px inset #b9f4ec;
     border-radius: 25px;
     padding: 15px;
     padding-top: 0px;
     height: 232.5px;
-    overflow: hidden;
+    /* overflow: hidden; */
     box-shadow: 1px 2px 3px 0px rgb(181, 180, 180);
+    transition: all .2s ease-in;
 }
 
+article:hover {
+    top: -2px;
+    box-shadow: 1px 6px 3px 0px rgb(181, 180, 180);
+}
 
 
 .trip-header {
